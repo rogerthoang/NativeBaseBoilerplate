@@ -1,0 +1,21 @@
+{
+  "plugins": ["react", "react-native", "transform-decorators-legacy"],
+  "env": {
+    "react-native/react-native": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "arrowFunctions": true,
+      "classes": true
+    }
+  },
+  "rules": {
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2,
+    "react-native/no-inline-styles": 2,
+    "react-native/no-color-literals": 2
+  }
+}
