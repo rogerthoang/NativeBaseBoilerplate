@@ -1,26 +1,8 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React, { Component } from 'react';
+import Setup from './src/boot/setup';
 
-class App extends React.Component {
+export default class App extends Component {
   render() {
-    return (
-      <View style={styles.container}>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-      </View>
-    );
+    return <Setup />;
   }
 }
-
-const White = '#FFF';
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: { White },
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
-
-export default App;
