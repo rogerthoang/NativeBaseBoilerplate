@@ -2,7 +2,7 @@ import { observable, action, reaction } from 'mobx';
 import agent from '../service';
 
 class CommonStore {
-  @observable appName = 'OpusLineUSAToro';
+  @observable appName = 'Akami';
   // @observable token = window.localStorage.getItem('jwt');
   @observable appLoaded = false;
 
